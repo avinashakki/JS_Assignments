@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        leapyear(2020);
+
+        function leapyear(n)
+        {
+            if (((n % 4 == 0) && (n % 100!= 0)) || (n % 400 == 0))
+            {
+                document.write("It is a Lear Year");
+
+            }
+            else
+            {
+                document.write("It is NOT a Lear Year");
+            }
+      
+        }
+    </script>
+
+</body>
+</html>
